@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,400i,700");
+@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');
+
+body {
+  // font-family: Montserrat, sans-serif;
+  font-family: 'Major Mono Display', monospace;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  
+  min-width: 100vw; // viewport width
+  min-height: 100vh; // viewport height
+  
+  background-color: #333;
+  
+  color: #FFF;
+  
+  .time {
+    font-size: 15vmin;
+    font-weight: bold;
+    color: #AAA;
+    
+    .hours, .minutes, .seconds {
+      color: #FFF;
+    }
+  }
+  
+  .date {
+    font-size: 11.5vmin;
+    font-weight: 100;
+    
+    color: #FFAA00;
+  }
+}
+
