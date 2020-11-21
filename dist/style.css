@@ -1,34 +1,36 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat:400,400i,700");
 @import url("https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap");
 body {
-  font-family: 'Major Mono Display', monospace;
+    font-family: "Major Mono Display", monospace;
 }
 
 .wrapper {
-  display: -webkit-box;
-  display: flex;
-  -webkit-box-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-          justify-content: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-          flex-direction: column;
-  min-width: 100vw;
-  min-height: 100vh;
-  background-color: #333;
-  color: #FFF;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    min-width: 100vw;
+    min-height: 100vh;
+    background-color: #333;
+    color: #fff;
 }
 .wrapper .time {
-  font-size: 15vmin;
-  font-weight: bold;
-  color: #AAA;
+    font-size: 20vmin;
+    font-weight: bold;
+    color: #aaa;
 }
-.wrapper .time .hours, .wrapper .time .minutes, .wrapper .time .seconds {
-  color: #FFF;
+.wrapper .time .hours,
+.wrapper .time .minutes,
+.wrapper .time .seconds {
+    color: #fff;
 }
 .wrapper .date {
-  font-size: 11.5vmin;
-  font-weight: 100;
-  color: #FFAA00;
+    font-size: 15.5vmin;
+    font-weight: 100;
+    color: #ffaa00;
 }
